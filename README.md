@@ -72,6 +72,7 @@ curl -d '{"id":1,"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["late
 
 ## How to update to new releases
 ```
+docker compose down
 git stash
 git pull
 ```
