@@ -70,6 +70,15 @@ sudo lsof -i :PORT_NUM
 curl -d '{"id":1,"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest",false]}' -H "Content-Type: application/json" http://localhost:8545
 ```
 
+## How to update to new releases
+```
+git stash
+git pull
+```
+- After this you need to edit .env.sepolia and docker file again
+
+---
+
 - Done !! Feel free to ask queries in telegram channel
 - Telegram - https://t.me/colonyairdrops
 - Youtube - https://www.youtube.com/@ColonyAirdrops
