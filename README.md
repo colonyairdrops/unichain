@@ -59,6 +59,12 @@ nano .env.sepolia
 docker compose up -d
 ```
 - Once you shoot up the container you might get daemon error if your ports are occupied, you just need to change the ports in yaml file (Watch Video on Youtube to understand better)
+
+## Check Occupied Port
+```
+sudo lsof -i :PORT_NUM
+```
+
 ## Unichain Status:
 ```
 curl -d '{"id":1,"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest",false]}' -H "Content-Type: application/json" http://localhost:8545
