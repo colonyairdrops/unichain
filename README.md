@@ -43,6 +43,10 @@ sudo usermod -aG docker $USER
 git clone https://github.com/Uniswap/unichain-node
 cd unichain-node
 ```
+## Save Node PrivateKey:
+```
+cat $HOME/unichain-node/geth-data/geth/nodekey
+```
 ## Edit env file:
 ```
 nano .env.sepolia
