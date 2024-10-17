@@ -51,6 +51,7 @@ cat $HOME/unichain-node/geth-data/geth/nodekey
 ```
 nano .env.sepolia
 ```
+- CTRL X Y Enter to save the file
 
 - Get [Endpoints](https://ethereum-sepolia.publicnode.com/)
 
